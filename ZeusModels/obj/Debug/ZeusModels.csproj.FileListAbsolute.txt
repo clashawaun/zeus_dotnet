@@ -1,0 +1,7 @@
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusModels\bin\Debug\ZeusModels.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusModels\bin\Debug\ZeusModels.pdb
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusModels\bin\Debug\ZeusEntities.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusModels\bin\Debug\ZeusEntities.pdb
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusModels\obj\Debug\ZeusModels.csprojResolveAssemblyReference.cache
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusModels\obj\Debug\ZeusModels.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusModels\obj\Debug\ZeusModels.pdb

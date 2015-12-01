@@ -1,0 +1,11 @@
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\ZeusClientLibrary.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\ZeusClientLibrary.pdb
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\obj\Debug\ZeusClientLibrary.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\obj\Debug\ZeusClientLibrary.pdb
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\obj\Debug\ZeusClientLibrary.csprojResolveAssemblyReference.cache
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\OrionWindows.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\OrionWindowsDesktop.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\ZeusEntities.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\ZeusEntities.pdb
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusClientLibrary\bin\Debug\Newtonsoft.Json.xml

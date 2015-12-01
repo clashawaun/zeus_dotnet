@@ -1,0 +1,4 @@
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusEntities\bin\Debug\ZeusEntities.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusEntities\bin\Debug\ZeusEntities.pdb
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusEntities\obj\Debug\ZeusEntities.dll
+C:\Users\shane\Documents\Visual Studio 2015\Projects\ZeusServerSide\ZeusEntities\obj\Debug\ZeusEntities.pdb

@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using ZeusModels.Models;
+using ZeusServerSide.Core.Handler;
+using ZeusServerSide.Core.Processing;
+using ZeusServerSide.Entities;
+using ZeusServerSide.Persistance;
+using ZeusServerSide.Persistance.Context;
+
+namespace ZeusUnitTests
+{
+    /// <summary>
+    /// The server test.
+    /// </summary>
+    [TestClass]
+    public class ServerTest
+    {
+        [TestMethod]
+        public void TestItemRepository()
+        {
+            var data = new List<ItemModel>
+            {
+                new ItemModel() { Id = 1, CubbyId = 1, ProductId = 1, ManufactureDate = DateTime.Now },
+                new ItemModel() { Id = 2, CubbyId = 1, ProductId = 1, ManufactureDate = DateTime.Now },
+                new ItemModel() { Id = 3, CubbyId = 1, ProductId = 1, ManufactureDate = DateTime.Now },
+            }.AsQueryable();
+
+            var mockSet = new Mock<DbSet<ItemModel>>();
+            mockSet.As<IQueryable<ItemModel>>().Setup(m => m.Provider).Returns(data.Provider);
+            mockSet.As<IQueryable<ItemModel>>().Setup(m => m.Expression).Returns(data.Expression);
+            mockSet.As<IQueryable<ItemModel>>().Setup(m => m.ElementType).Returns(data.ElementType);
+            mockSet.As<IQueryable<ItemModel>>().Setup(m => m.GetEnumerator()).Returns(data.GetEnumerator());
+
+            var mockedContext = new Mock<ZeusDbContext>();
+            mockedContext.Setup(c => c.Items).Returns(mockSet.Object);
+
+            var testItemRepo = new ItemRepository(mockedContext.Object);
+
+            Assert.AreEqual(testItemRepo.Get(1).Id, 1);
+            Assert.AreEqual(testItemRepo.Get(2).Id, 1);
+            Assert.AreEqual(testItemRepo.Get(3).Id, 1);
+        }
+    }
+}
