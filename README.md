@@ -5,7 +5,7 @@ In addition to the server application which manages the warehouse, an online sto
 
 The project was a proof of concept implementation. I will continue to add features going into the future.
 
-Report: http://go.shanecraven.com/go/to/zeus_dotnet_report
-Source Code: http://go.shanecraven.com/go/to/zeus_dotnet_public
-Online Store: http://zeus.shanecraven.com (The store requires an Orion account for access)
+Report: http://go.shanecraven.com/go/to/zeus_dotnet_report<br>
+Source Code: http://go.shanecraven.com/go/to/zeus_dotnet_public<br>
+Online Store: http://zeus.shanecraven.com (The store requires an Orion account for access)<br>
 Orion Website: http://orion.shanecraven.com
