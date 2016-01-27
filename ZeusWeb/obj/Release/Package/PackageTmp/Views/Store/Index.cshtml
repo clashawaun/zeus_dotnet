@@ -1,0 +1,34 @@
+﻿@using ZeusEntities.DTO
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@{
+    var counter = 0;
+}
+@foreach (var product in ((List<ProductDto>)ViewBag.Products))
+{
+    if (counter % 3 == 0)
+    {
+        @Html.Raw("<div class=\"row\">")
+    }
+    <div class="col-md-4">
+        <h3>@product.Name</h3>
+        <p>
+            @product.Description
+        </p>
+        <p>Price: €@(product.Price/100)</p>
+        <p><a href=@("http://zeus.shanecraven.com/Store/Product/" + product.Id)>View Product Page</a></p>
+    </div>
+    counter++;
+    if (counter % 3 == 0)
+    {
+        @Html.Raw("</div><br>")
+    }
+}
+@if (counter % 3 != 0)
+{
+    @Html.Raw("</div><br>")
+}

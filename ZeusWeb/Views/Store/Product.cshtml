@@ -1,0 +1,14 @@
+﻿@model ZeusEntities.DTO.ProductDto
+@{
+    ViewBag.Title = "Product";
+}
+
+<h2>@Model.Name</h2>
+
+<h3>Description</h3>
+<p>@Model.Description</p>
+
+<h3>Dimensions</h3>
+<p>H: @Model.Height, W: @Model.Width, D: @Model.Depth</p>
+<p>@Html.ActionLink("Order this item", "Order", "Store", new {Id = @Model.Id }, new {style = "display:block"})</p>
+
